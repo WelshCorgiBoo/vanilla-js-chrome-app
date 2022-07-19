@@ -16,10 +16,8 @@ const jsbody = document.querySelector("body");
 const bgImage = document.createElement("img");
 function backgd() {
     const chosenImage = backgroundImages[Math.floor(Math.random() * backgroundImages.length)];
-    jsbody.style.backgroundImage = `url(https://vanilla-js-chrome-app.github.io/backgroundimages/${chosenImage})`;
+    jsbody.style.backgroundImage = `url(https://welshcorgiboo.github.io/vanilla-js-chrome-app/backgroundimages/${chosenImage})`;
 }
-
-
 
 backgd();
 setInterval(backgd, 10000);
